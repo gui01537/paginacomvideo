@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Vídeos - ADS</title>
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 vídeos por linha */
+            gap: 20px;
+            justify-items: center; /* centraliza cada vídeo na célula */
+            margin-top: 30px;
+        }
+
+        .video-grid iframe {
+            width: 400px;
+            height: 225px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Vídeos Educacionais</h1>
+    <p>Assista aos vídeos abaixo para aprofundar seus conhecimentos em desenvolvimento de sistemas.</p>
+
+    <div class="video-grid">
+        <!-- Vídeos do YouTube -->
+        <iframe src="https://www.youtube.com/embed/p8q2_VIk-2Y" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/u1m7ukyC0Yg" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/rPUK2-dzTmg" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/1FKUfMWBcLM" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/RK3TLfFqEDw" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/k3wb4g6exi8" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
